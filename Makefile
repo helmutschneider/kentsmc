@@ -1,7 +1,8 @@
 CC=swiftc
 OUT=kentsmc
-all: clean
-	mkdir -p bin && $(CC) KentSMC.swift -o bin/$(OUT)
+all: clean gen_keys
+	mkdir -p bin && $(CC) Keys.swift KentSMC.swift  -o bin/$(OUT)
+gen_keys:
+	swift GenKeys.swift > Keys.swift
 clean:
-	rm -rf bin
-
+	rm -rf bin Keys.swift

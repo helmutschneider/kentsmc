@@ -1,0 +1,457 @@
+CPU Core:IC0C
+CPU VccIO:IC1C
+CPU VccSA:IC2C
+CPU High Side:IC0R
+CPU DRAM:IC5R
+CPU PLL:IC8R
+CPU GFX:IC0G
+CPU Memory:IC0M
+GPU Rail:IG0C
+Memory Controller:IM0C
+Memory Rail:IM0R
+MCH:IN0C
+Mainboard S0 Rail (DC In):ID0R
+Mainboard S5 Rail:ID5R
+Misc. Rail:IO0R
+Battery Rail:IB0R
+Charger BMON:IPBR
+5V Low-Side:I50R
+WLAN Low-Side:IAPC
+Battery:IBAC
+Backlight:IBLC
+CPU I/O High Side:IC0I
+CPU SA High Side:IC0S
+CPU High Side From EMC1704:IC1R
+CPU DDR:IC3C
+Camera S2:ICMC
+CPU Core:ICS0
+CPU From CPU IMON:ICS1
+CPU Riser 12V High Side:ICTR
+CPU 1V5 Average:ID1R
+Power Supply 12V Filtered:ID2E
+Power Supply 12V Filter Input S7.8:ID2I
+Power Supply 12V Max Error:ID2J
+Power Supply 12V:ID2R
+Power Supply 12V Trend:ID2T
+GPU FB Input-Side:IG0F
+GPU VDDCI Load-Side:IG0I
+GPU High Side:IG0R
+GPU A VDDCI Low-Side:IG0S
+GPU Uncore High Side:IG0U
+GPU Aux Input-Side:IG1A
+GPU Core Input-Side:IG1C
+GPU FB Input-Side:IG1F
+GFX B Riser 12V High Side:IG1R
+GPU B VDDCI Low-Side:IG1S
+Ext GPU 1.05V:IG2C
+Ext GPU VRAM & I/O:IG3C
+HDD 12V Low-Side:IH02
+Drive 0 5V Load-Side:IH05
+SSD 3V3 Low-Side:IH0R
+SSD 3.3V Low-Side:IH1R
+SSD:IHDC
+Thunderbolt:IHSC
+Thunderbolt:IHSP
+TBT IO High Side:II0R
+LCD Panel:ILDC
+1.8V S3 Low-Side:IM1C
+LPDDR 1.8V:IM2C
+DDR S3:IM3C
+Memory 1V5 High Side:IMTR
+GFX Vcore Average:IN0R
+MCP DDR:IN1C
+PCH Low-Side:IN1R
+Current Other 3.3V High:IO3R
+Battery BMON:IO5R
+ODD:IODC
+Battery Discrete:IP0R
+Discrete Battery:IPB1
+3.3V S0:IR0C
+Other High Side:IR1C
+PCH/GPU/TBT 1.05V High Side:IR1R
+S3 5.0V:IR2C
+3.3V S0:IR3C
+5.0V S0:IR5C
+S2 Camera:IS2C
+PCH Core:ISBC
+SSD:ISDC
+Trackpad Actuator:ITPC
+Wifi Low-Side:IW0R
+WLAN:IZAP
+LCD Backlight:IZBL
+1V5S3:IZDM
+HDD:IZHD
+ODD:IZOD
+Airport:IZOP
+CSreg:Ic0R
+Fan %d Current Speed:F%dAc
+Fan %d Minimal Speed:F%dMn
+Fan %d Maximum Speed:F%dMx
+Fan %d Safe Speed:F%dSf
+Fan %d Target Speed:F%dTg
+Fan %d Manual Mode:F%dMd
+CPU Core %:PC%C
+CPU Core (IMON):PCAM
+CPU Package:PCPC
+CPU Total:PCTR
+CPU Package Total:PCPT
+CPU Package Total (SMC):PCPR
+CPU Computing High Side %:PC%R
+CPU GFX %:PC%G
+CPU VccEDRAM:PCEC
+GPU Intel Graphics:PCPG
+GPU %:PG%R
+Intel GPU:PCGC
+Intel GPU (IMON):PCGM
+RAM:PC3C
+Battery:PPBR
+DC In:PDTR
+System Total:PSTR
+CPU DRAM:PCPD
+CPU Total:PCPL
+Memory Rail:PM0R
+MCH:PN0C
+PCH Rail:PN1R
+Mainboard S0 Rail:PD0R
+Mainboard S5 Rail:PD5R
+Main 3.3V Rail:PH02
+Main 5V Rail:PH05
+12V Rail:Pp0R
+Main 12V Rail:PD2R
+Misc. Rail:PO0R
+Battery Rail:PBLC
+Battery Rail:PB0R
+5V Low-Side:P50R
+Airport:PAPC
+Discrete BMON On Battery:PB1R
+CPU I/O High Side:PC0I
+CPU Mem Load-Side:PC0M
+CPU SA High Side:PC0S
+CPU Package Total:PCLT
+Chipset Low-Side:PCS0
+Chipset IMon:PCS1
+Power Supply Trend:PD0D
+Power Supply Filtered:PD0E
+Power Supply Filtered Adjusted:PD0F
+Power Supply Max Error Filtered Output:PD0J
+Average CPU 1V5:PD1R
+GPU Aux Load-Side:PG0A
+GPU:PG0C
+GPU Frame Buf Input-Side:PG0F
+GPU VDDCI Load-Side:PG0I
+GPU Mem Ctl Load-Side:PG0M
+GPU A VDDCI Low-Side:PG0S
+GPU Uncore High Side:PG0U
+GPU VRAM Load-Side:PG0V
+GPU Aux Load-Side:PG1A
+Ext GPU 1.8V:PG1C
+GPU Mem Ctl Load-Side:PG1F
+GPU B VDDCI Low-Side:PG1S
+Ext GPU 1.05V:PG2C
+Ext GPU 1.35V:PG3C
+Drive 0 Total:PH0F
+HDD1 Low-Side:PH0R
+Drive 1 Filtered Low-Side * 16:PH1F
+Drive 1:PH1R
+Drive 2:PH2R
+SSD:PHDC
+Heatpipe:PHPC
+Thunderbolt:PHSC
+Thunderbolt:PHSP
+TBT IO High Side:PI0R
+LCD Panel:PLDC
+Average Memory:PM0C
+DIMM Load-Side / SQR(Fan RPM):PM0f
+DDR:PM1C
+DDR 1.8V CPU:PM2C
+DDR S3.:PM3C
+Memory Total:PMTR
+MCP VCore:PN0R
+Average MCP Memory:PN1C
+Other 3.3V High Side:PO3R
+Other 5V High Side:PO5R
+PBus:PP0R
+3.3V S0:PR0C
+S0 5.0V:PR0R
+Other High Side Current.:PR1C
+S3 3.30V:PR1R
+S3 5.0V:PR2R
+3.3V In S0:PR3C
+S5 3.30V:PR3R
+3.3V S5:PR5C
+S2 Camera:PS2C
+PCH Core:PSBC
+SSD:PSDC
+HP Target:PTHC
+T101 Boost/PBus Accuator:PTPC
+T25 - Track Pad:PTPR
+Wifi Load-Side:PW0R
+Zone 0 Target:PZ0E
+Zone 0 Filtered:PZ0F
+Zone 0 Average:PZ0G
+Zone 0 Abstract Throttle:PZ0T
+Zone 1 Target:PZ1E
+Zone 1 Filtered:PZ1F
+Zone 1 Average:PZ1G
+Zone 1 Abstract Throttle:PZ1T
+Zone 2 Target:PZ2E
+Zone 2 Filtered:PZ2F
+Zone 2 Average:PZ2G
+Zone 2 Abstract Throttle:PZ2T
+Zone 3 Target:PZ3E
+Zone 3 Filtered:PZ3F
+Zone 3 Average:PZ3G
+Zone 3 Abstract Throttle:PZ3T
+Zone 4 Target:PZ4E
+Zone 4 Filtered:PZ4F
+Zone 4 Average:PZ4G
+Zone 4 Abstract Throttle:PZ4T
+Zone 5 Target:PZ5E
+Zone 5 Filtered:PZ5F
+Zone 5 Average:PZ5G
+Zone 5 Abstract Throttle:PZ5T
+Airport:PZAP
+Backlight:PZBL
+Memory:PZDM
+SSD:PZHD
+ODD(PZOD):PZOD
+Average Main Chipset:Pc0R
+Ambient %:TA%P
+Heatpipe %:Th%H
+Termal Zone %:TZ%C
+CPU Diode %:TC%D
+CPU Diode Virtual %:TC%E
+CPU Diode Filtered %:TC%F
+CPU Heatsink %:TC%H
+CPU Proximity %:TC%P
+CPU Package:TCAD
+CPU Core %:TC%c
+CPU Core %:TC%C
+GPU Intel Graphics:TCGC
+GPU Diode %:TG%D
+GPU AMD Radeon:TGDD
+GPU Heatsink %:TG%H
+GPU Proximity %:TG%P
+Mainboard %:Tm%P
+Powerboard %:Tp%P
+Battery %:TB%T
+Airport %:TW%P
+Display %:TL%P
+Thunderbolt %:TI%P
+Disk % (A):TH%A
+Disk % (B):TH%B
+Disk % (C):TH%C
+Northbridge Diode %:TN%D
+Northbridge Heatsink %:TN%H
+Northbridge Proximity %:TN%P
+CPU Efficiency Core 1:Tp09
+CPU Efficiency Core 2:Tp0T
+CPU Performance Core 1:Tp01
+CPU Performance Core 2:Tp05
+CPU Performance Core 3:Tp0D
+CPU Performance Core 4:Tp0H
+CPU Performance Core 5:Tp0L
+CPU Performance Core 6:Tp0P
+CPU Performance Core 7:Tp0X
+CPU Performance Core 8:Tp0b
+GPU 1:Tg05
+GPU 2:Tg0D
+GPU 3:Tg0L
+GPU 4:Tg0T
+Airflow Left:TaLP
+Airflow Right:TaRF
+NAND:TH0x
+PECI SA:TCSA
+Memory Proximity:Ts0S
+Mem Bank A1:TM0P
+Mem Bank A2:TM1P
+Mem Bank B1:TM8P
+Mem Bank B2:TM9P
+Mem Module A1:TM0S
+Mem Module A2:TM1S
+Mem Module B1:TM8S
+Mem Module B2:TM9S
+MCH Die:TN0C
+PCH Die:TP0D
+PCH Die:TPCD
+PCH Proximity:TP0P
+Palm Rest:Ts0P
+BLC Proximity:Tb0P
+HDD Bay 1:TH0P
+HDD Bay 2:TH1P
+HDD Bay 3:TH2P
+HDD Bay 4:TH3P
+Optical Drive:TO0P
+Power Supply 1 Alt:Tp0C
+Power Supply 2 Alt:Tp1C
+Expansion Slots:TS0C
+PCI Slot 1 Pos 1:TA0S
+PCI Slot 1 Pos 2:TA1S
+PCI Slot 2 Pos 1:TA2S
+PCI Slot 2 Pos 2:TA3S
+Ambient Light Sensor Temperature 1:ALT0
+Ambient Light Sensor Temperature 2:ALT1
+Ambient Virtual:TA0V
+Ambient 1 Raw:TA0p
+Ambient 2 Raw:TA1p
+Ambient 3 Raw:TA2p
+CPU PECI Die Max Error:TC0J
+CPU PECI Die Trend:TC0T
+CPU Die Raw:TC0d
+CPU Proximity Raw:TC0p
+Max PECI Reported:TCMX
+CPU Max Package Core Relative Cooked:TCXR
+CPU Max Package Core Relative Raw:TCXr
+GPU 0 Die Filtered For Fan Control:TG0E
+GPU 0 Die Filtered And Adjusted For Power Control:TG0F
+GPU 0 Die Max Error Used In TG0F=TG0E+:TG0J
+GFX Memory:TG0M
+GPU Die Analog:TG0T
+GPU 0 Die Raw:TG0d
+GPU 0 Proximity Raw:TG0p
+GPU 1 Die Filtered:TG1F
+GPU 1 Die Raw:TG1d
+GPU 1 Proximity Raw:TG1p
+GPU 2 Proximity Raw:TG2p
+GPU 3 Proximity Raw:TG3p
+Drive OOBv3 Relative Filtered Max:TH0F
+Drive 0 OOBv1 Mapped:TH0O
+Drive 0 OOBv3 Relative Cooked Max:TH0R
+SSD B Foreign Drive Prediction:TH0V
+SSD 0 OOBv3 Cooked Max:TH0X
+Drive 0 OOBv3 Absolute Raw A:TH0a
+Drive 0 OOBv3 Absolute Raw B:TH0b
+Drive 0 OOBv3 Absolute Raw C:TH0c
+Drive 0 Sensor Existence Used For TM0V:TH0e
+Drive 0 OOBv1 Raw Bit-Mapped:TH0o
+Drive 0 OOBv3 Max:TH0x
+SSD 1:TH1F
+Drive 1 OOBv1 Mapped:TH1O
+SSD 1:TH1R
+SSD 1 OOBv3 Cooked Max:TH1X
+Drive 1 OOBv3 Absolute Raw A:TH1a
+Drive 1 OOBv3 Absolute Raw B:TH1b
+Drive 1 OOBv3 Absolute Raw C:TH1c
+Drive 1 OOBv1 Raw Bit-Mapped:TH1o
+Fin Stack:THFH
+Thunderbolt Die:THSP
+Thunderbolt Proximity Cooked:TI0T
+TBT Proximity Raw:TI0p
+LCD Filtered Right Front-Of-Screen Virtual:TL0V
+LCD UnFiltered Front-Of-Screen Raw:TL0p
+LCD TL1v-Filtered Center Front-Of-Screen For Color Compensation:TL1V
+LCD TCON Proximity Raw:TL1p
+LCD TL1v-Filtered Center Front-Of-Screen For Color Compensation:TL1v
+LCD IR Target Hotspot Raw:TL2p
+LCD IR Sensor Die Raw:TL3p
+DIMM 0 PECI Cooked:TM0D
+Drive 0 Sensor Existence Used For TM0V:TM0V
+DIMM 0 Proximity Raw:TM0p
+DIMM 1 PECI Cooked:TM1D
+DIMM Virtual For 2x DIMM Slot1+2+3+4 Config:TM1a
+DIMM 1 Proximity Raw:TM1p
+DIMM 2 PECI Cooked:TM2D
+DIMM 0/1 VR Proximity Cooked:TM2P
+DIMM Virtual For 2x DIMM Slot1+3 Config:TM2a
+DIMM Virtual For 2x DIMM Slot1+2 Or Slot2+3 Config:TM2b
+DIMM Virtual For 2x DIMM Slot1+4 Or Slot2+4 Config:TM2c
+DIMM Virtual For 2x DIMM Slot3+4 Config:TM2d
+DIMM 2 Proximity Raw:TM2p
+DIMM 3 PECI Cooked:TM3D
+DIMM 2/3 VR Proximity Cooked:TM3P
+DIMM Virtual For 3x DIMM Slot2+3+4 Config:TM3a
+DIMM Virtual For 3x DIMM Slot1+3+4 Config:TM3b
+DIMM Virtual For 3x DIMM Slot1+2+4 Config:TM3c
+DIMM Virtual For 3x DIMM Slot1+2+3 Config:TM3d
+DIMM 3 Proximity Raw:TM3p
+DIMM Virtual For 4x DIMM Slot1+2+3+4 Config:TM4a
+DIMM Bandwidth Estimate:TMBS
+Memory Controller/Integrated Graphics PECI:TMCD
+Dimm Proximity:TMLB
+DIMM Max Cooked:TMXD
+DIMM Proximity Max Cooked:TMXP
+PCH Digital Die Raw:TPCd
+Speaker Remote:TS0D
+Speaker Proximity:TS0P
+Skin 0 Virtual:TS0V
+Skin 0 Raw:TS0p
+Speaker Remote 2:TS1D
+Speaker Proximity 2:TS1P
+S2 Camera Proximity:TS2P
+Fan Target:TTF0
+Vent Proximity:TV0P
+Filtered Vent Proximity:TVFP
+Wifi Proximity Raw:TW0p
+DCIn Air Flow:Ta0P
+DCIn Air Flow Adjusted:TaSP
+Backlight Controller Proximity Raw:Tb0p
+TBT Thermal Diode:Te0T
+TBT Thermal Diode Raw:Te0t
+Nand:Th0N
+Heat Spreader Proximity:Th0P
+RIO:Th0R
+EMC1428 Internal Diode Raw:Tm0p
+MLB Proximity 1 Raw:Tm1p
+MLB Proximity 2 Raw:Tm2p
+Power Supply T2 Secondary Heatsink Filtered:Tp2F
+Power Supply T2 Secondary Heatsink Cooked:Tp2H
+Power Supply T2 Secondary Heatsink Raw:Tp2h
+Actuator:Ts1P
+Synthetic Top Skin:Ts1S
+CPU IA:VCAC
+CPU System Agent:VCSC
+CPU Core %:VC%C
+GPU Intel Graphics:VCTC
+GPU %:VG%C
+Memory %:VM%R
+CMOS:Vb0R
+DC In:VD0R
+12V Rail:VP0R
+12V VCC:Vp0C
+3V:VV2S
+3.3V:VR3R
+5V:VV1S
+12V:VV9S
+PCI 12V:VeES
+CPU VTT:VV1R
+PCH:VN1R
+MCH:VN0C
+Main 5V:VH05
+Auxiliary 3V:VV7S
+Standby 3V:VV3S
+Standby 5V:VV8S
+Battery:VBAT
+5V Low-Side:V50R
+ACC:VACC
+Wireless:VAPC
+Backlight Output Boosted:VBLC
+CPU AXG Low-Side:VC0G
+CPU Mem Load-Side:VC0M
+CPU VSA Low-Side:VC0S
+CPU High Side From EMC1704:VC1R
+FIVR CPU Supply:VCFR
+CPU Ripple:VCRP
+CPU Core:VCS0
+GPU Frame Buffer Input-Side:VG0F
+GPU VDDCI Load-Side:VG0I
+GPU A VDDCI Low-Side:VG0S
+GPU Uncore High Side:VG0U
+GPU Frame Buffer Input-Side:VG1F
+GPU B VDDCI Low-Side:VG1S
+SSD 3V3 Low-Side:VH0R
+SSD 3.3V Low-Side:VH1R
+LCD IR:VL3t
+1.2V To CPU/MEM Low-Side:VM0C
+1.8V S3 Low-Side:VM1C
+Average GFX Vcore:VN0R
+MCP Memory:VN1C
+ODD:VODC
+PSU:VP0T
+PCH/GPU/TBT Load-Side:VR1R
+SD Card:VSDC
+T101 Accuator:VTPC
+WIFI:VZAP
+Backlight:VZBL
+Memory:VZDM
+SSD:VZHD
+ODD:VZOD
