@@ -3,8 +3,8 @@ A simple tool to read & write to the SMC on Macs.
 
 ```
 Usage:
-  kentsmc -k [key]               Read a key
-  kentsmc -k [key] -w [value]    Write a key
+  kentsmc -r [key]               Read a key
+  kentsmc -r [key] -w [value]    Write a key
   kentsmc -l                     Dump all keys
   kentsmc -f <filter>            Read keys matching <filter>
   kentsmc --fan-rpm <rpm>        Activates fan manual mode (F%Md) and sets the target rpm (F%Tg)

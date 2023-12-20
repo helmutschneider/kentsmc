@@ -359,13 +359,14 @@ func test() {
 @main
 class App {
     static func printKeyValue(key: String, value: SMCValue) {
-        if case .unknown = value {
-            return
+        var desc: String
+        if let x = SMC_KEYS[key] {
+            desc = " (\(x))"
+        } else {
+            desc = ""
         }
-        if let desc = SMC_KEYS[key] {
-            print("\(desc) (\(key))")
-            print("  = \(value)\n")
-        }
+        desc = desc.padding(toLength: 32, withPad: " ", startingAt: 0)
+        print("\(key)\(desc) = \(value)")
     }
 
     static func handleError(_ e: Error) {
@@ -378,8 +379,8 @@ class App {
 
         let USAGE: String = """
         Usage:
-          kentsmc -k [key]               Read a key
-          kentsmc -k [key] -w [value]    Write a key
+          kentsmc -r [key]               Read a key
+          kentsmc -r [key] -w [value]    Write a key
           kentsmc -l                     Dump all keys
           kentsmc -f <filter>            Read keys matching <filter>
           kentsmc --fan-rpm <rpm>        Activates fan manual mode (F%Md) and sets the target rpm (F%Tg)
@@ -392,8 +393,8 @@ class App {
         while index < CommandLine.argc {
             let arg = CommandLine.arguments[index]
             switch arg {
-                case "-k": do {
-                    args["-k"] = CommandLine.arguments[index + 1]
+                case "-r": do {
+                    args["-r"] = CommandLine.arguments[index + 1]
                     index += 2
                 }
                 case "-w": do {
@@ -434,13 +435,15 @@ class App {
         if args.keys.contains("-l") {
             let keys = try conn.keys()
             for key in keys {
-                let desc = SMC_KEYS[key.toString()] ?? "<unknown>"
-                print("\(key.toString()): \(desc)")
+                do {
+                    let value = try conn.read(key.toString())
+                    printKeyValue(key: key.toString(), value: value)
+                } catch {}
             }
         }
 
-        if args.keys.contains("-k") {
-            let key = args["-k"]!
+        if args.keys.contains("-r") {
+            let key = args["-r"]!
 
             do {
                 let value = try conn.read(key)
